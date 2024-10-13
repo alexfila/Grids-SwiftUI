@@ -1,5 +1,5 @@
 //
-//  BasicGrids.swift
+//  StandartOne.swift
 //  Grids-SwiftUI
 //
 //  Created by Alex Fila on 12/10/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct BasicGrids: View {
+struct StandartOne: View {
     var body: some View {
         Grid(alignment: .top, horizontalSpacing: 15, verticalSpacing: 30)
         {
@@ -37,9 +37,4 @@ struct BasicGrids: View {
     }
 }
 
-struct BasicGrid_Previews: PreviewProvider {
-    static var previews: some View {
-        BasicGrid()
-    }
-}
-
+#Preview { StandartOne() }
